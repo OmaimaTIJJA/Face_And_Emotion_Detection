@@ -23,21 +23,21 @@ Le modèle a été testé sur plusieurs images, avec des résultats visuellement
 <img src="./Test_Images/happy.jpg" alt="happy" height="300px"/> <img src="./Test_Images/neutral.jpg" alt="neutral" height="300px"/> <img src="./Test_Images/suprise.jpg" alt="surprise" height="300px"/>
 
 
-#### Émotions détectées :-
+#### Émotions détectées :
  #####  😠 Colère (Angry) , 😞 Tristesse (Sad) , 😐 Neutre (Neutral) , 🤢 Dégoût (Disgust) , 😲 Surprise , 😨 Peur (Fear) , 😊 Joie (Happy)
 
-## Usage:
+## Utilisation:
 
-### For  Face Detection, and Emotion Detection Code
+### Détection du visage et des émotions
 
-Refer to the notebook /Emotion_Detection.ipynb.<br/>
-I have trained an emotion detection model and put its trained weights at /Models
+Consultez le notebook Emotion_Detection.ipynb.
+Les poids entraînés du modèle sont disponibles dans le dossier /Models.
 
-### Train your Emotion Detection Model
-To train your own emotion detection model, Refer to the notebook /facial_emotion_recognition.ipynb
+### Entraîner votre propre modèle
+Pour entraîner un modèle personnalisé, utilisez le notebook facial_emotion_recognition.ipynb.
 
-### For Emotion Detection  using Webcam 
-#### Clone the repo:
+### Détection des émotions via la webcam
+#### Clonez le dépôt:
 Run `pip install -r requirements.txt` <br/>
 ` python Emotion_Detection.py`
 
