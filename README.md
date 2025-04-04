@@ -5,21 +5,18 @@
 
 ### Emotion Detection
 
-Humans are used to non verbal communication. The emotions expressed increases the clarity of any thoughts and ideas. It becoms quite interesting when a computer can capture this complex feature of humans, ie emotions. This topic talks about building a model which can detect an emotion from an image. There key points to be followed are:
+La communication non verbale joue un rôle fondamental dans les interactions humaines. Les émotions permettent d’exprimer clairement les pensées et les intentions. Pouvoir détecter ces émotions à l’aide d’un ordinateur ouvre des perspectives intéressantes. Ce projet vise à développer un modèle capable de reconnaître les émotions humaines à partir d’images faciales. Les étapes clés sont les suivantes :
 
-1. Data gathering and  augmentation
+1. Collecte et augmentation des données
+Le jeu de données utilisé est fer2013, disponible sur GitHub : fer2013. Des techniques d’augmentation d’images ont été appliquées pour enrichir l’ensemble de données.
 
-   The dataset taken was **"fer2013"**. It can be downloaded through the link "https://github.com/npinto/fer2013". Image augmentation was performed on this data.
+2. Construction du modèle
+L’architecture repose sur un réseau de neurones convolutifs (CNN), intégrant les couches suivantes : Convolution, Max Pooling, Flatten, Dropout
 
-2. Model building
+3. Entraînement du modèle
+Le modèle a été entraîné en testant différentes variantes de couches et en ajustant les hyperparamètres. Le meilleur modèle a atteint 60.1 % de précision en validation.
 
-   The model architecture consists of CNN Layer, Max Pooling, Flatten and Dropout Layers.
-
-3. Training
-
-   The model was trained  by  using variants of above layers mentioned in model building and by varying hyperparameters. The best model was able to achieve 60.1% of validation accuracy.
-
-4. Testing
+5. Testing
 
    The model was tested with sample images. It can be seen below:
 
