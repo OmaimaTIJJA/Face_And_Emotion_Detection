@@ -23,8 +23,8 @@ Le modèle a été testé sur plusieurs images, avec des résultats visuellement
 <img src="./Test_Images/happy.jpg" alt="happy" height="300px"/> <img src="./Test_Images/neutral.jpg" alt="neutral" height="300px"/> <img src="./Test_Images/suprise.jpg" alt="surprise" height="300px"/>
 
 
-#### The model will be able to detect 7 types of emotions:-
- #####  Angry , Sad ,  Neutral ,  Disgust ,  Surprise ,  Fear  , and   Happy
+#### Émotions détectées :-
+ #####  😠 Colère (Angry) , 😞 Tristesse (Sad) , 😐 Neutre (Neutral) , 🤢 Dégoût (Disgust) , 😲 Surprise , 😨 Peur (Fear) , 😊 Joie (Happy)
 
 ## Usage:
 
