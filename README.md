@@ -1,9 +1,10 @@
-# Facial Recognition and Emotion Detection
+# Reconnaissance Faciale et Détection des Émotions
+
 ----------
  <img src="./Test_Images/demo.jpeg" alt="index1"/>
 ----------
 
-### Emotion Detection
+### Détection des émotions
 
 La communication non verbale joue un rôle fondamental dans les interactions humaines. Les émotions permettent d’exprimer clairement les pensées et les intentions. Pouvoir détecter ces émotions à l’aide d’un ordinateur ouvre des perspectives intéressantes. Ce projet vise à développer un modèle capable de reconnaître les émotions humaines à partir d’images faciales. Les étapes clés sont les suivantes :
 
@@ -16,13 +17,11 @@ L’architecture repose sur un réseau de neurones convolutifs (CNN), intégrant
 3. Entraînement du modèle
 Le modèle a été entraîné en testant différentes variantes de couches et en ajustant les hyperparamètres. Le meilleur modèle a atteint 60.1 % de précision en validation.
 
-5. Testing
+4. Évaluation et test
+Le modèle a été testé sur plusieurs images, avec des résultats visuellement satisfaisants :
 
-   The model was tested with sample images. It can be seen below:
+<img src="./Test_Images/happy.jpg" alt="happy" height="300px"/> <img src="./Test_Images/neutral.jpg" alt="neutral" height="300px"/> <img src="./Test_Images/suprise.jpg" alt="surprise" height="300px"/>
 
-   <img src="./Test_Images/happy.jpg" alt="index1" height="300px"/>
-   <img src="./Test_Images/neutral.jpg" alt="index2" height="300px"/>
-    <img src="./Test_Images/suprise.jpg" alt="index3" height="300px"/>
 
 #### The model will be able to detect 7 types of emotions:-
  #####  Angry , Sad ,  Neutral ,  Disgust ,  Surprise ,  Fear  , and   Happy
